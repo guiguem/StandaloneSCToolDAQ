@@ -9,3 +9,4 @@ lib
 main
 NodeDaemon
 RemoteControl
+cmake-build-debug
