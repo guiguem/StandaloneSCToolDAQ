@@ -11,6 +11,6 @@ find_path(CPPZMQ_INCLUDE_DIR NAMES zmq.hpp HINTS ${CPPZMQ_ROOT_DIR} ${CMAKE_SOUR
 # handle the QUIETLY and REQUIRED arguments and set CPPZMQ_FOUND to TRUE if
 # all listed variables are TRUE
 include(FindPackageHandleStandardArgs)
-find_package_handle_standard_args(CPPZMQ REQUIRED_VARS CPPZMQ_INCLUDE_DIR)
+find_package_handle_standard_args(cppzmq REQUIRED_VARS CPPZMQ_INCLUDE_DIR)
 
 mark_as_advanced(CPPZMQ_INCLUDE_DIR)
