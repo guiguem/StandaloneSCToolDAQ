@@ -6,7 +6,11 @@
 #  CPPZMQ_FOUND          - True if CPPZMQ found.
 #
 
+message( STATUS "CPPZMQ_ROOT_DIR: ${CPPZMQ_ROOT_DIR}")
+
 find_path(CPPZMQ_INCLUDE_DIR NAMES zmq.hpp HINTS ${CPPZMQ_ROOT_DIR} ${CMAKE_SOURCE_DIR}/external/cppzmq)
+
+message( STATUS "CPPZMQ_INCLUDE_DIR: ${CPPZMQ_INCLUDE_DIR}")
 
 # handle the QUIETLY and REQUIRED arguments and set CPPZMQ_FOUND to TRUE if
 # all listed variables are TRUE
