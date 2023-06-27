@@ -125,7 +125,7 @@ list( APPEND PUBLIC_EXT_LIBS libzmq )
 # CPPZMQ
 ########
 
-find_package(cppzmq REQUIRED)
+find_package(CPPZMQ REQUIRED)
 SET (CPPZMQ_BUILD_TESTS OFF CACHE INTERNAL "" FORCE)
 pbuilder_add_submodule( cppzmq vendor/cppzmq )
 
