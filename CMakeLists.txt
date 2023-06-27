@@ -117,7 +117,7 @@ endif ()
 #
 SET (ZMQ_BUILD_TESTS OFF CACHE INTERNAL "" FORCE)
 SET (BUILD_TESTS OFF CACHE INTERNAL "" FORCE)
-pbuilder_add_submodule( ZeroMQ vendor/libzmq )
+pbuilder_add_submodule( libzmq vendor/libzmq )
 list( APPEND PUBLIC_EXT_LIBS libzmq )
 
 
