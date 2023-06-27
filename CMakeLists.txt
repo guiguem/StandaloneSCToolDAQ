@@ -42,7 +42,7 @@ set(CMAKE_CXX_STANDARD 14)
 option( Jarvis_BUILD_MAIN_EXE "Flag to build the Jarvis main executable; also requires Jarvis_ENABLE_EXECUTABLES" ON )
 
 # Build python bindings (requires boost::python)
-option( Jarvis_BUILD_PYTHON "Build python bindings (JarvisPy)" ON )
+option( Jarvis_BUILD_PYTHON "Build python bindings (JarvisPy)" OFF )
 
 # Add a "Standard" build type
 #set (CMAKE_BUILD_TYPE standard)
