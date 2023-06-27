@@ -72,7 +72,7 @@ mark_as_advanced(FLAG_WARNINGS)
 
 set (CMAKE_CXX_FLAGS_STANDARD "${CMAKE_CXX_FLAGS_STANDARD} -Winconsistent-missing-override ")
 
-add_compile_options(-pthreads)
+add_compile_options(-pthread)
 
 ######################
 # Jarvis dependencies #
